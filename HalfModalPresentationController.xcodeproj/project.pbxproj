@@ -12,6 +12,8 @@
 		4CF53BC91F3A54C80088F136 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CF53BC71F3A54C80088F136 /* Main.storyboard */; };
 		4CF53BCB1F3A54C80088F136 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CF53BCA1F3A54C80088F136 /* Assets.xcassets */; };
 		4CF53BCE1F3A54C80088F136 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CF53BCC1F3A54C80088F136 /* LaunchScreen.storyboard */; };
+		4CF53BD61F3A5A370088F136 /* ConstraintsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF53BD51F3A5A370088F136 /* ConstraintsExtension.swift */; };
+		4CF657BC1F3B5390007EAA88 /* CommentsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF657BB1F3B5390007EAA88 /* CommentsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		4CF53BCA1F3A54C80088F136 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CF53BCD1F3A54C80088F136 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CF53BCF1F3A54C80088F136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CF53BD51F3A5A370088F136 /* ConstraintsExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintsExtension.swift; sourceTree = "<group>"; };
+		4CF657BB1F3B5390007EAA88 /* CommentsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				4CF53BCA1F3A54C80088F136 /* Assets.xcassets */,
 				4CF53BCC1F3A54C80088F136 /* LaunchScreen.storyboard */,
 				4CF53BCF1F3A54C80088F136 /* Info.plist */,
+				4CF53BD51F3A5A370088F136 /* ConstraintsExtension.swift */,
+				4CF657BB1F3B5390007EAA88 /* CommentsController.swift */,
 			);
 			path = HalfModalPresentationController;
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CF53BD61F3A5A370088F136 /* ConstraintsExtension.swift in Sources */,
 				4CF53BC61F3A54C80088F136 /* ViewController.swift in Sources */,
 				4CF53BC41F3A54C80088F136 /* AppDelegate.swift in Sources */,
+				4CF657BC1F3B5390007EAA88 /* CommentsController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +312,7 @@
 				4CF53BD41F3A54C80088F136 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
