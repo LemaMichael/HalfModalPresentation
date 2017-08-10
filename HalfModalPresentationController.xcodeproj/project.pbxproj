@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C3220E01F3CD9F90047DB15 /* ECMessageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3220DF1F3CD9F90047DB15 /* ECMessageCollectionViewCell.swift */; };
+		4C3220E21F3CDBAE0047DB15 /* ReadMe in Resources */ = {isa = PBXBuildFile; fileRef = 4C3220E11F3CDBAE0047DB15 /* ReadMe */; };
 		4CE4AB081F3C301400EAB412 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE4AB071F3C301400EAB412 /* UIColorExtension.swift */; };
 		4CF53BC41F3A54C80088F136 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF53BC31F3A54C80088F136 /* AppDelegate.swift */; };
 		4CF53BC61F3A54C80088F136 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF53BC51F3A54C80088F136 /* ViewController.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C3220DF1F3CD9F90047DB15 /* ECMessageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ECMessageCollectionViewCell.swift; sourceTree = "<group>"; };
+		4C3220E11F3CDBAE0047DB15 /* ReadMe */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
 		4CE4AB071F3C301400EAB412 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		4CF53BC01F3A54C80088F136 /* HalfModalPresentationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HalfModalPresentationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CF53BC31F3A54C80088F136 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -64,10 +68,12 @@
 				4CF53BC31F3A54C80088F136 /* AppDelegate.swift */,
 				4CF53BC51F3A54C80088F136 /* ViewController.swift */,
 				4CF657BB1F3B5390007EAA88 /* CommentsController.swift */,
+				4C3220DF1F3CD9F90047DB15 /* ECMessageCollectionViewCell.swift */,
 				4CF53BC71F3A54C80088F136 /* Main.storyboard */,
 				4CF53BCA1F3A54C80088F136 /* Assets.xcassets */,
 				4CF53BCC1F3A54C80088F136 /* LaunchScreen.storyboard */,
 				4CF53BCF1F3A54C80088F136 /* Info.plist */,
+				4C3220E11F3CDBAE0047DB15 /* ReadMe */,
 			);
 			path = HalfModalPresentationController;
 			sourceTree = "<group>";
@@ -141,6 +147,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C3220E21F3CDBAE0047DB15 /* ReadMe in Resources */,
 				4CF53BCE1F3A54C80088F136 /* LaunchScreen.storyboard in Resources */,
 				4CF53BCB1F3A54C80088F136 /* Assets.xcassets in Resources */,
 				4CF53BC91F3A54C80088F136 /* Main.storyboard in Resources */,
@@ -158,6 +165,7 @@
 				4CF53BC61F3A54C80088F136 /* ViewController.swift in Sources */,
 				4CE4AB081F3C301400EAB412 /* UIColorExtension.swift in Sources */,
 				4CF53BC41F3A54C80088F136 /* AppDelegate.swift in Sources */,
+				4C3220E01F3CD9F90047DB15 /* ECMessageCollectionViewCell.swift in Sources */,
 				4CF657BC1F3B5390007EAA88 /* CommentsController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
