@@ -8,53 +8,27 @@
 
 import UIKit
 
-class ViewController: UIViewController, UIViewControllerTransitioningDelegate {
-    
-
-    
-    let button: UIButton = {
+class ViewController: UIViewController {
+    let presentButton: UIButton = {
         let button = UIButton(type: .system)
         button.setTitle("Present modal", for: .normal)
         button.addTarget(self, action: #selector(handleModalPresentation), for: .touchUpInside)
-        
         return button
     }()
-    
-    func setUpButtonConstraints() {
-        view.addConstraintsWithFormat(format: "V:[v0(50)]-25-|", views: button)
-        view.addConstraintsWithFormat(format: "H:|[v0]|", views: button)
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor.white
-        
-        view.addSubview(button)
+        view.addSubview(presentButton)
         setUpButtonConstraints()
-
     }
-
-  
-        
+    func setUpButtonConstraints() {
+        view.addConstraintsWithFormat(format: "V:[v0(50)]-25-|", views: presentButton)
+        view.addConstraintsWithFormat(format: "H:|[v0]|", views: presentButton)
+    }
     func handleModalPresentation() {
-        print("Yeah something should happen")
-        let vc = PresentingViewController()
-
-        
+        let vc = CommentsController()
         vc.modalPresentationStyle = UIModalPresentationStyle.overCurrentContext
-        //vc.transitioningDelegate = self
-        //navigationController?.pushViewController(vc, animated: true)
         present(vc, animated: true, completion: nil)
-
-    
-        
     }
-
-    
-    
-    
-    
-
-
 }
 
